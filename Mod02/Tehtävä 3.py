@@ -1,0 +1,6 @@
+kanta = float(input("Anna kanta: "))
+korkeus = float(input("Anna korkeus: "))
+piiri = 2* (kanta + korkeus)
+print(f"piiri on{piiri}")
+print(f"pinta-ala on  {pinta_ala}")
+print(f"keskiarvo: {keskiarvo}")
