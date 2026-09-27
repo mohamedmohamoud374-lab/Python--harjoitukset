@@ -1,0 +1,10 @@
+import random 
+oikea = random.randint(1, 10)
+arvaus=int(input("Arvaa luku 1-10: "))
+while arvaus != oikea:
+    if arvaus > oikea 
+       print("Liaan suuri arvaus")
+    else:
+         print("Liaan pieni arvaus")
+         arvaus = int(input("Arvaa luku 1-10: "))
+print("oikein")

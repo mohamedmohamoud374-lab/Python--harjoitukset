@@ -1,0 +1,12 @@
+syöte = input("Anna luku (Enter lopettaa): ")
+pienin = float()
+suurin = float()
+while syöte != "":
+    luku = float(syöte)
+    if luku < pienin:
+        pienin = luku
+        if luku > suurin:
+            suurin = luku
+            syöte = input("Anna luku ( Enter lopettaa):")
+            
+                
